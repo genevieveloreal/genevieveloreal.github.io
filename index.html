@@ -1,1 +1,86 @@
-"Hello World" 
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    
+    <!--[if lt IE 9]>
+    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex" />
+    <meta name="robots" content="nofollow" />
+    <meta name="robots" content="noarchive" />
+    <title>Halfbrick Car List</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,600" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="shortcut icon" href="../favicon.ico"> 
+    <link rel="stylesheet" type="text/css" href="css/default.css" />
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <script src="js/modernizr.custom.js"></script>
+    <title>Halfbrick Carparking</title>
+    
+</head>
+    
+<body>
+    
+    <div class="container-fluid">
+        <h1 class="title text-center">is it a halfbrick car?</h1>
+        <h2 class="text-center"><i class="fa fa-car" aria-hidden="true"></i></h1>
+        <p class="blurb text-center">Press the search button below</p>
+
+        <div class="jumbotron">
+            <div id="sb-search" class="sb-search">
+	           <form>
+		              <input class="sb-search-input" placeholder="Search registration number" type="text" value="" name="search" id="myInput" onkeyup="myFunction()">
+		              <input class="sb-search-submit" type="submit" value="">
+		              <span class="sb-icon-search"></span>
+	           </form>
+            </div>
+
+            <ul id="myUL" class="text-center">
+                  <li><a href="#">123ABC - Mitsubishi Lancer, Blue</a></li>
+                  <li><a href="#">456DEF - Mazda 6, White</a></li>
+                  <li><a href="#">789GHI - Suzuki Swift, White</a></li>
+                  <li><a href="#">123JKL - Mazda 3, Dark Bronze</a></li>
+                  <li><a href="#">456MNO - BMW 320TD, Midnight Blue</a></li>
+                  <li><a href="#">789PQR - Mazda 3, Grey</a></li>
+                  <li><a href="#">123STU - Hyundai IX35, White</a></li>
+                  <li><a href="#">456VWX - Nissan Skyline 350, Blue</a></li>
+                  <li><a href="#">789YX - Ford Fairlane Hearse, Black</a></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="footer"><p class="text-center">&copy; 2017 Halfbrick Studios</p></div>
+    
+    <script>
+    function myFunction() {
+    // Declare variables
+    var input, filter, ul, li, a, i;
+    input = document.getElementById('myInput');
+    filter = input.value.toUpperCase();
+    ul = document.getElementById("myUL");
+    li = ul.getElementsByTagName('li');
+
+    // Loop through all list items, and hide those who don't match the search query
+    for (i = 0; i < li.length; i++) {
+        a = li[i].getElementsByTagName("a")[0];
+        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+            li[i].style.display = "";
+        } else {
+            li[i].style.display = "none";
+        }
+    }
+}
+    </script>
+    <script src="js/classie.js"></script>
+    <script src="js/uisearch.js"></script>
+    <script>
+        new UISearch( document.getElementById( 'sb-search' ) );
+    </script>
+    
+</body>
+    
+</html>
