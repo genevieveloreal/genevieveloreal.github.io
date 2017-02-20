@@ -176,7 +176,7 @@ input[type="search"].sb-search-input {
 
 /*List styles*/
 #myInput {
-    /*background-image: url('/images/searchicon.png');*/
+    background-image: url('/images/searchicon.png');
     background-position: 10px 12px; 
     background-repeat: no-repeat; 
     width: 100%; 
@@ -193,7 +193,7 @@ input[type="search"].sb-search-input {
     margin-top: 110px;
 }
 
-#myUL li a {
+#myUL li .vehicle {
     border-top: 1.5px solid rgba(255, 255, 255, 0.5);
     border-bottom: 1.5px solid rgba(255, 255, 255, 0.5);
     margin-top: -1px;
@@ -203,8 +203,9 @@ input[type="search"].sb-search-input {
     display: block; 
 }
 
-#myUL li a:hover:not(.header) {
+#myUL li .vehicle:hover:not(.header) {
     background-color: #fff;
+    color: black;
      -o-transition:.5s;
      -ms-transition:.5s;
      -moz-transition:.5s;
