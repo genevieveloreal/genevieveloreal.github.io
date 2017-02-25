@@ -10,6 +10,7 @@
     <meta name="robots" content="noindex" />
     <meta name="robots" content="nofollow" />
     <meta name="robots" content="noarchive" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>Halfbrick Car List</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,600" rel="stylesheet">
@@ -26,7 +27,7 @@
 <body>
     
     <div class="container-fluid">
-        <h1 class="title text-center">is it a halfbrick car?</h1>
+        <h1 class="title text-center">Is it a Halfbrick Car?</h1>
         <h2 class="text-center"><i class="fa fa-car" aria-hidden="true"></i></h1>
         <p class="blurb text-center">Press the search button below</p>
 
@@ -40,15 +41,13 @@
             </div>
 
             <ul id="myUL" class="text-center">
-                  <li><a href="#">123ABC - Mitsubishi Lancer, Blue</a></li>
-                  <li><a href="#">456DEF - Mazda 6, White</a></li>
-                  <li><a href="#">789GHI - Suzuki Swift, White</a></li>
-                  <li><a href="#">123JKL - Mazda 3, Dark Bronze</a></li>
-                  <li><a href="#">456MNO - BMW 320TD, Midnight Blue</a></li>
-                  <li><a href="#">789PQR - Mazda 3, Grey</a></li>
-                  <li><a href="#">123STU - Hyundai IX35, White</a></li>
-                  <li><a href="#">456VWX - Nissan Skyline 350, Blue</a></li>
-                  <li><a href="#">789YX - Ford Fairlane Hearse, Black</a></li>
+                  <li><span class="vehicle">180VXM - Mitsubishi Lancer, Blue</span></li>
+                  <li><span class="vehicle">190LKG - Mazda 6, White</span></li>
+                  <li><span class="vehicle">159SGJ - Suzuki Swift, White</span></li>
+                  <li><span class="vehicle">136VHE - Mazda 3, Dark Bronze</span></li>
+                  <li><span class="vehicle">438VNW - BMW 320TD, Midnight Blue</span></li>
+                  <li><span class="vehicle">060INX - Mazda 3, Grey</span></li>
+                  <li><span class="vehicle">749VHT - Hyundai IX35, White</span></li>
             </ul>
         </div>
     </div>
@@ -58,7 +57,7 @@
     <script>
     function myFunction() {
     // Declare variables
-    var input, filter, ul, li, a, i;
+    var input, filter, ul, li, span, i;
     input = document.getElementById('myInput');
     filter = input.value.toUpperCase();
     ul = document.getElementById("myUL");
@@ -66,8 +65,8 @@
 
     // Loop through all list items, and hide those who don't match the search query
     for (i = 0; i < li.length; i++) {
-        a = li[i].getElementsByTagName("a")[0];
-        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+        span = li[i].getElementsByTagName("span")[0];
+        if (span.innerHTML.toUpperCase().indexOf(filter) > -1) {
             li[i].style.display = "";
         } else {
             li[i].style.display = "none";
