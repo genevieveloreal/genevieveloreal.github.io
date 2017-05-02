@@ -158,7 +158,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/header.jpg');
+  background-image: url('../img/background_bw.png');
   text-align: center;
   color: white;
 }

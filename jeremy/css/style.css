@@ -15,3 +15,8 @@
     font-size: 0.9em;
     letter-spacing: 0.2em;
 }
+
+.profile-paragraph {
+    text-align: justify;
+    padding-top: 20px;
+}
