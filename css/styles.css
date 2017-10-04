@@ -1,0 +1,217 @@
+/*General styles*/
+
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: #FF90B3;
+    color: #FAFAFA;
+    margin: 0px;
+    padding: 0px;
+}
+
+p {
+    margin: 0px;
+}
+
+h1 {
+    font-family: "Hammersmith One", sans-serif;
+    font-size: 6em;
+    text-transform: uppercase;
+    margin-left: 20px;
+}
+
+h2 {
+    font-family: "Hammersmith One", sans-serif;
+    font-size: 4em;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-family: "Hammersmith One", sans-serif;
+    text-transform: uppercase;
+    font-size: 2.5em;
+}
+
+/*Nav styles*/
+
+.navbar-default .navbar-nav > li > a {
+    color: #FAFAFA;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #af215a;
+    font-weight: bold;
+    font-size: 1.5em;
+    -webkit-transition: color .3s;
+}
+
+.navbar-default {
+    background-color: rgba(255,255,255,0.3);
+    border: 0px;
+    color: #FAFAFA;
+}
+
+.nav {
+    text-transform: uppercase;
+}
+
+.container {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.main-container {
+    width: 60%;
+}
+
+/*Masthead styles*/
+
+#masthead {
+    background-image: url("../bg.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub-tag {
+    font-size: 2.5em;
+    text-transform: uppercase;
+}
+
+/*About styles*/
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.intro {
+    font-size: 2em;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.skills {
+    list-style: none;
+}
+
+.para-info {
+    font-size: 1.5em;
+    line-height: 2em;
+}
+
+/*.content-paragraph {
+    font-size: 2em;
+}*/
+
+/*Portfolio styles*/
+
+#portfolio {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img-circle {
+    padding-bottom: 20px;
+    opacity: 1;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+    transition: opacity .2s ease-in-out;
+    -moz-transition: opacity .2s ease-in-out;
+    -webkit-transition: opacity .2s ease-in-out;
+    color: #fafafa;
+}
+
+.img-circle:hover {
+    opacity: 0.7;
+    filter: alpha(opacity=70);/* For IE8 and earlier */
+    cursor: pointer;
+}
+
+/*Contact styles*/
+
+#contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.contact-content {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.email a {
+    color: #fafafa;
+    font-size: 1.5em;
+}
+
+.email a:hover {
+    color: #af215a;
+    text-decoration: none;
+    -webkit-transition: color .3s;
+}
+
+.profile-img {
+    width: 200px;
+}
+
+.contact-icons {
+    flex-flow: row;
+}
+
+.fa {
+    padding: 10px;
+}
+
+.fa:hover {
+    color: #af215a
+}
+
+i {
+    color: #FAFAFA;
+    -webkit-transition: color .3s;
+}
+
+/*Footer styles*/
+
+#footer {
+    height: 50px;
+    text-transform: uppercase;
+    font-size: 1em;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background-color: rgba(255,255,255,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Media queries*/
+
+@media screen and (max-width: 767px) {
+    .navbar-nav {
+        background-color: rgba(255,144,179,0.5);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sub-tag {
+       padding-left: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    .sub-tag {
+        font-size: 1.5em;
+    }
+}
