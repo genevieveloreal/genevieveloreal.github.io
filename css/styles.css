@@ -69,7 +69,7 @@ h3 {
 /*Masthead styles*/
 
 #masthead {
-    background-image: url("../bg.jpg");
+    background-image: url("../img/main-bg.png");
     background-size: cover;
     height: 100vh;
     display: flex;
@@ -144,6 +144,10 @@ h3 {
     flex-flow: column;
     align-items: center;
     justify-content: center;
+}
+
+.chat {
+    font-size: 1.5em;
 }
 
 .email a {
