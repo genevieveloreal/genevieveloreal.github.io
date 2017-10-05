@@ -150,6 +150,18 @@ h3 {
     justify-content: center;
 }
 
+.contact-link {
+    color: #fafafa;
+    text-decoration: underline;
+}
+
+.contact-link:hover {
+    color: #af215a;
+    text-decoration: none;
+    -webkit-transition: color .3s;
+    text-decoration: underline;
+}
+
 .chat {
     font-size: 1.5em;
 }
