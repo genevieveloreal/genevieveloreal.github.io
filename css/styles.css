@@ -132,6 +132,10 @@ h3 {
     cursor: pointer;
 }
 
+.illustration {
+    padding-top: 50px;
+}
+
 /*Contact styles*/
 
 #contact {
