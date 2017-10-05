@@ -1,6 +1,4 @@
 # genevieveloreal.github.io
-This is my GitHub page
+Web development portfolio 
 
-[portfolio website] (https://genevieveloreal.github.io/portfolio/)
-
-[Carparking list prototype] (https://genevieveloreal.github.io/)
+[Portfolio] (https://genevieveloreal.github.io)
