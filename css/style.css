@@ -74,4 +74,4 @@ a:hover {
 .outer-container img:hover {
     opacity: 0.8;
 }
-#gamify, #weploy, #netball-queensland { background-color: #fff; }
+#gamify, #weploy, #netball-queensland { background-color: #fff!important; }
