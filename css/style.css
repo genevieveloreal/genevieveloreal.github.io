@@ -1,0 +1,61 @@
+body { 
+    background-color: #f1f5f8;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.masthead {
+    background-color: #fff;
+    height: auto;
+    min-height: 30rem;
+    position: relative;
+    display: table;
+    width: 100%;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-repeat: repeat;
+    background-image: url("../images/pattern.png");
+}
+
+.masthead h1 { 
+    font-weight: 600;
+    font-size: 4em;
+    color: #0c0a3e;
+}
+
+.masthead .row { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-primary {
+    background-color: #00d9ff;
+    border-color: #00d9ff;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 15px 25px;
+}
+h2 {
+    margin-bottom: 20px;
+}
+
+p { 
+    font-size: 16px;
+}
+
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature a {
+    transition: 0.2s all;
+}
+
+a:hover { 
+    text-decoration: none;
+}
