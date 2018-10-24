@@ -37,6 +37,12 @@ body {
 }
 h2 {
     margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.outer-container h4 {
+    font-size: 16px;
+    font-weight: 600;
 }
 
 p { 
@@ -44,8 +50,8 @@ p {
 }
 
 .section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 90px;
+    padding-bottom: 90px;
 }
 
 .feature {
@@ -54,8 +60,18 @@ p {
 
 .feature a {
     transition: 0.2s all;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
 }
 
 a:hover { 
     text-decoration: none;
 }
+.outer-container img {
+    transition: 0.3s all;
+}
+.outer-container img:hover {
+    opacity: 0.8;
+}
+#gamify, #weploy, #netball-queensland { background-color: #fff; }
