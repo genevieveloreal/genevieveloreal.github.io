@@ -61,6 +61,8 @@ p {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 14px;
+    color: #00d9ff;
+    font-weight: 600;
 }
 a:hover { 
     text-decoration: none;
