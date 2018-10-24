@@ -2,7 +2,9 @@ body {
     background-color: #f1f5f8;
     font-family: 'Montserrat', sans-serif;
 }
-
+.fa { 
+    font-family: 'FontAwesome' !important;
+}
 .masthead {
     background-color: #fff;
     height: auto;
@@ -15,19 +17,16 @@ body {
     background-repeat: repeat;
     background-image: url("../images/pattern.png");
 }
-
 .masthead h1 { 
     font-weight: 600;
     font-size: 4em;
     color: #0c0a3e;
 }
-
 .masthead .row { 
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .btn-primary {
     background-color: #00d9ff;
     border-color: #00d9ff;
@@ -39,32 +38,30 @@ h2 {
     margin-bottom: 20px;
     font-weight: 600;
 }
-
 .outer-container h4 {
     font-size: 16px;
     font-weight: 600;
 }
-
+.portrait {
+    border-radius: 50%;
+    width: 300px;
+}
 p { 
     font-size: 16px;
 }
-
 .section {
     padding-top: 90px;
     padding-bottom: 90px;
 }
-
 .feature {
     text-align: center;
 }
-
 .feature a {
     transition: 0.2s all;
     text-transform: uppercase;
     letter-spacing: 1px;
     font-size: 14px;
 }
-
 a:hover { 
     text-decoration: none;
 }
@@ -74,4 +71,26 @@ a:hover {
 .outer-container img:hover {
     opacity: 0.8;
 }
-#gamify, #weploy, #netball-queensland { background-color: #fff!important; }
+#gamify,
+#weploy,
+#netball-queensland { 
+    background-color: #fff!important;
+}
+@media (max-width: 767px) {
+    .masthead {
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .masthead .col-lg-5, .masthead .col-lg-7 { 
+        text-align: center;
+    }
+    .masthead h1 {
+        font-size: 2em;
+    }
+    .masthead .portrait {
+        margin-bottom: 20px;
+    }
+}
+.fa {
+    font-family: 'FontAwesome' !important;
+}
