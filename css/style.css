@@ -1,12 +1,15 @@
 body {
 	background-color: #f1f5f8;
-	font-family: "Montserrat", sans-serif;
+	/* font-family: "Montserrat", sans-serif; */
+	font-family: "Jost", sans-serif;
 }
 .fa {
 	font-family: "FontAwesome" !important;
 }
 .masthead {
 	background-color: #fff;
+	background-image: url("../images/background.jpg");
+	background-size: cover;
 	height: auto;
 	min-height: 30rem;
 	position: relative;
@@ -27,11 +30,15 @@ body {
 	align-items: center;
 }
 .btn-primary {
-	background-color: #00d9ff;
-	border-color: #00d9ff;
+	background-color: #6d597a;
+	border-color: #6d597a;
 	font-weight: 600;
 	border-radius: 30px;
 	padding: 15px 25px;
+}
+.btn-primary:hover {
+	background-color: #b75d69;
+	border-color: #b75d69;
 }
 h2 {
 	margin-bottom: 20px;
@@ -60,7 +67,7 @@ p {
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 14px;
-	color: #00d9ff;
+	color: #6d597a;
 	font-weight: 600;
 }
 a:hover {
