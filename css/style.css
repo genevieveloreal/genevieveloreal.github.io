@@ -72,6 +72,14 @@ a:hover {
 .outer-container img:hover {
 	opacity: 0.8;
 }
+.footer {
+	align-items: center;
+	display: flex;
+	height: 50px;
+	justify-content: center;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
 #youfoodz,
 #gamify,
 #bigstone {
