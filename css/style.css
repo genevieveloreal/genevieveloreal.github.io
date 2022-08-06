@@ -1,97 +1,98 @@
 body {
-    background-color: #f1f5f8;
-    font-family: 'Montserrat', sans-serif;
+	background-color: #f1f5f8;
+	font-family: "Montserrat", sans-serif;
 }
 .fa {
-    font-family: 'FontAwesome' !important;
+	font-family: "FontAwesome" !important;
 }
 .masthead {
-    background-color: #fff;
-    height: auto;
-    min-height: 30rem;
-    position: relative;
-    display: table;
-    width: 100%;
-    padding-top: 8rem;
-    padding-bottom: 8rem;
-    background-repeat: repeat;
+	background-color: #fff;
+	height: auto;
+	min-height: 30rem;
+	position: relative;
+	display: table;
+	width: 100%;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+	background-repeat: repeat;
 }
 .masthead h1 {
-    font-weight: 600;
-    font-size: 4em;
-    color: #0c0a3e;
+	font-weight: 600;
+	font-size: 4em;
+	color: #0c0a3e;
 }
 .masthead .row {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 .btn-primary {
-    background-color: #00d9ff;
-    border-color: #00d9ff;
-    font-weight: 600;
-    border-radius: 30px;
-    padding: 15px 25px;
+	background-color: #00d9ff;
+	border-color: #00d9ff;
+	font-weight: 600;
+	border-radius: 30px;
+	padding: 15px 25px;
 }
 h2 {
-    margin-bottom: 20px;
-    font-weight: 600;
+	margin-bottom: 20px;
+	font-weight: 600;
 }
 .outer-container h4 {
-    font-size: 16px;
-    font-weight: 600;
+	font-size: 16px;
+	font-weight: 600;
 }
 .portrait {
-    border-radius: 50%;
-    width: 300px;
+	border-radius: 50%;
+	width: 300px;
 }
 p {
-    font-size: 16px;
+	font-size: 16px;
 }
 .section {
-    padding-top: 90px;
-    padding-bottom: 90px;
+	padding-top: 90px;
+	padding-bottom: 90px;
 }
 .feature {
-    text-align: center;
+	text-align: center;
 }
 .feature a {
-    transition: 0.2s all;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    font-size: 14px;
-    color: #00d9ff;
-    font-weight: 600;
+	transition: 0.2s all;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	color: #00d9ff;
+	font-weight: 600;
 }
 a:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 .outer-container img {
-    transition: 0.3s all;
+	transition: 0.3s all;
 }
 .outer-container img:hover {
-    opacity: 0.8;
+	opacity: 0.8;
 }
 #youfoodz,
 #gamify,
 #bigstone {
-    background-color: #fff!important;
+	background-color: #fff !important;
 }
 @media (max-width: 767px) {
-    .masthead {
-        padding-top: 3rem;
-        padding-bottom: 3rem;
-    }
-    .masthead .col-lg-5, .masthead .col-lg-7 {
-        text-align: center;
-    }
-    .masthead h1 {
-        font-size: 2em;
-    }
-    .masthead .portrait {
-        margin-bottom: 20px;
-    }
+	.masthead {
+		padding-top: 3rem;
+		padding-bottom: 3rem;
+	}
+	.masthead .col-lg-5,
+	.masthead .col-lg-7 {
+		text-align: center;
+	}
+	.masthead h1 {
+		font-size: 2em;
+	}
+	.masthead .portrait {
+		margin-bottom: 20px;
+	}
 }
 .fa {
-    font-family: 'FontAwesome' !important;
+	font-family: "FontAwesome" !important;
 }
